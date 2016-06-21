@@ -1,0 +1,30 @@
+{
+  "name": "fccfilesize",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp File Metadata Microservice",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "multer": "^1.1.0",
+    "pug": "^2.0.0-beta3",
+    "jade": "^1.11.0",
+    "express": "^4.13.4"
+  },
+  "engines":{
+    "node": "4.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starkraving/fcc-filesize.git"
+  },
+  "author": "Mike Ritchie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starkraving/fcc-filesize/issues"
+  },
+  "homepage": "https://github.com/starkraving/fcc-filesize#readme"
+}

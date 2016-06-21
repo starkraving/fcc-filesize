@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	h1 FreeCodeCamp Filesize Microservice
+	form(action="/", method="post", encoding="form/multipart")
+		input(name="file", type="file")
+		button(type="submit") Upload
